@@ -40,8 +40,6 @@ public class CurrencyChooserActivity extends AppCompatActivity {
     public void chooseCurrency(View sender) {
         RadioGroup fromGroup = (RadioGroup) findViewById(R.id.from_radioGroup);
         RadioGroup toGroup = (RadioGroup) findViewById(R.id.to_radioGroup);
-        EditText test = (EditText) findViewById(R.id.test_label);
-
 
         double fromTax, toTax, tax;
 

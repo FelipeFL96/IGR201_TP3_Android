@@ -13,5 +13,5 @@
     <string name="pound_label">GBP</string>
     <string name="real_label">BRL</string>
     <string name="button_choose">Allons-y!</string>
-    <string name="description">Choisissez les monnaies et convertez-les: </string>
+    <string name="description">Choisissez les monnaies et convertissez-les: </string>
 </resources>

@@ -116,13 +116,5 @@
         android:text="@string/button_choose"
         android:onClick="chooseCurrency"/>
 
-    <EditText
-        android:id="@+id/test_label"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:enabled="false"
-        android:focusable="false"
-        android:hint="@string/result_label"/>
-
 
 </LinearLayout>
