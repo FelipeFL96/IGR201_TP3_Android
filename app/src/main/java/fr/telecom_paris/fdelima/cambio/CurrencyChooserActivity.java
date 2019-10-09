@@ -4,7 +4,6 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.EditText;
 import android.widget.RadioGroup;
 
 import org.json.JSONException;
@@ -117,14 +116,11 @@ public class CurrencyChooserActivity extends AppCompatActivity {
     }
 
     private void downloadCurrencyRates() {
-        System.err.println("Appèl à la tâche");
         DataDownloadTask ratesDownload = new DataDownloadTask();
         ratesDownload.execute("https://perso.telecom-paristech.fr/eagan/cours/igr201/data/taux_2017_11_02.json");
 
         try {
-            System.out.println("Obtention du résultat de la tâche");
             rates = ratesDownload.get();
-            System.out.println("Taux: " + rates);
         }
         catch (InterruptedException e) {
             System.err.println("Warning: Could not read rates: " + e.getLocalizedMessage());
