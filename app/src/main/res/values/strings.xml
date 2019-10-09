@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Cambio</string>
+    <string name="origin_label">Origine</string>
+    <string name="tax_label">Taux</string>
+    <string name="result_label">Result</string>
+    <string name="button_convert">Convertir</string>
+    <string name="button_currency">Choisir Monnaie</string>
+    <string name="convert_text">Convertir</string>
+    <string name="from_text">de</string>
+    <string name="to_text">à</string>
+    <string name="euro_label">EUR</string>
+    <string name="dollar_label">USD</string>
+    <string name="pound_label">GBP</string>
+    <string name="real_label">BRL</string>
+    <string name="button_choose">Allons-y!</string>
+    <string name="description">Choisissez les monnaies et convertez-les: </string>
+</resources>
