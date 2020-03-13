@@ -1,9 +1,5 @@
 package fr.telecom_paris.fdelima.cambio;
 
-/**
- * Created by fdelima on 08/10/19.
- */
-
 import android.os.AsyncTask;
 
 import java.io.BufferedReader;
@@ -14,7 +10,6 @@ import java.net.URL;
 
 import org.json.JSONException;
 import org.json.JSONObject;
-
 
 class DataDownloadTask extends AsyncTask<String, Void, JSONObject> {
 

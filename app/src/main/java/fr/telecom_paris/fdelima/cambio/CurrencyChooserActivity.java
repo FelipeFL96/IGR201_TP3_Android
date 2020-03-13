@@ -37,9 +37,6 @@ public class CurrencyChooserActivity extends AppCompatActivity {
     public void setTaxToReal(View sender) { toCurrency = Currency.BRL; }
 
     public void chooseCurrency(View sender) {
-        RadioGroup fromGroup = (RadioGroup) findViewById(R.id.from_radioGroup);
-        RadioGroup toGroup = (RadioGroup) findViewById(R.id.to_radioGroup);
-
         double fromTax, toTax, tax;
 
         switch (fromCurrency) {
